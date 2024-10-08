@@ -1,0 +1,25 @@
+# Unity LFS
+*.cubemap               lfs
+*.unitypackage          lfs  
+# 3D models
+*.3dm                   lfs
+*.3ds                   lfs
+*.blend*                lfs
+*.c4d                   lfs
+*.collada               lfs
+*.dae                   lfs
+*.dxf                   lfs	
+*.psd filter=lfs diff=lfs merge=lfs -text
+
+# Unity SLN
+*.cubemap               SLN
+*.unitypackage          SLN  
+# 3D models
+*.3dm                   SLN
+*.3ds                   SLN
+*.blend*                SLN
+*.c4d                   SLN
+*.collada               SLN
+*.dae                   SLN
+*.dxf                   SLN	
+*.psd filter=SLN diff=SLN merge=SLN -text
